@@ -1,0 +1,50 @@
+"
+"  Pentadactyl settings
+"  vim: ft=vimperator fdm=marker
+"
+"###############################################
+
+so ~/.pentadactyl/.pentadactylrc-sensitive
+so ~/.pentadactyl/stylesheets/user.css
+
+" @section Options {{{
+" ******************************************************************************
+cd ~
+set guioptions=rbm
+set visualbell
+set newtab=all
+set titlestring=Mozilla\ Firefox
+set defsearch=duck
+set maxitems=12
+set cpt=fl
+colorscheme feline
+au LocationChange .* js modes.passAllKeys = /google\.com\/calendar|docs\.google\.com/.test(buffer.URL)
+" }}}
+
+" @section Mappings {{{
+" ******************************************************************************
+nmap d <Nop>
+nmap a <Nop>
+nmap w <Nop>
+nmap <M-k> <Nop>
+nmap <M-f> <Nop>
+nmap <M-g> <Nop>
+nmap <M-l> <Nop>
+nmap <M-Q> <Nop>
+nmap <C-g> :pa<CR>
+nmap J :jumps<CR>
+nmap <M-d> :delicious<CR>
+nmap <S-r> O<CR>
+nmap <M-S-S> :emenu Affichage.Style de la page.Aucun style<CR>
+nmap <M-S-D> :emenu Affichage.Style de la page.Style de base de la page<CR>
+nmap <M-S-L> :emenu Affichage.Panneau latéral.LiveHTTPHeaders<CR>
+nmap <F9> :sbclose<CR>
+" }}}
+
+" @section Custom commands {{{
+" ******************************************************************************
+command! read :open javascript:function%20iptxt(){var%20d=document;try{if(!d.body)throw(0);window.location='http://www.instapaper.com/text?u='+encodeURIComponent(d.location.href);}catch(e){alert('Please%20wait%20until%20the%20page%20has%20loaded.');}}iptxt();void(0)
+command! delicious :open javascript:(function(){f='http://www.delicious.com/save?url='+encodeURIComponent(window.location.href)+'&title='+encodeURIComponent(document.title)+'&v=5&';a=function(){if(!window.open(f+'noui=1&jump=doclose','deliciousuiv5','location=yes,links=no,scrollbars=no,toolbar=no,width=550,height=550'))location.href=f+'jump=yes'};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})()
+command! valid :open javascript:void(location='http://validator.w3.org/check?uri='+escape(location))
+command! firebug :open javascript:(function(F,i,r,e,b,u,g,L,I,T,E){if(F.getElementById(b))return;E=F[i+'NS']&&F.documentElement.namespaceURI;E=E?F[i+'NS'](E,'script'):F[i]('script');E[r]('id',b);E[r]('src',I+g+T);E[r](b,u);(F[e]('head')[0]||F[e]('body')[0]).appendChild(E);E=new%20Image;E[r]('src',I+L);})(document,'createElement','setAttribute','getElementsByTagName','FirebugLite','4','firebug-lite.js','releases/lite/latest/skin/xp/sprite.png','https://getfirebug.com/','#startOpened');
+" }}}

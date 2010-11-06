@@ -1,0 +1,65 @@
+/* ****************************************************
+  @file         main.css
+  @description  Main user stylesheet
+  vim: set fdm=marker:
+***************************************************** */
+
+/* @section Facebook {{{
+ ******************************************************************************/
+
+@-moz-document domain(facebook.com) {
+
+  #non-existent-id {}
+
+  .uiStreamMessage .actorName,
+  .uiStreamMessage .messageBody {
+    font-size: 12px !important;
+    line-height: 16px !important;
+  }
+  .uiStreamMessage .actorName {
+    float: left !important;
+    margin: 0 0.5em 0 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+}
+
+/* }}} */
+
+/* @section Hacker news {{{
+ ******************************************************************************/
+
+@-moz-document domain(news.ycombinator.com) {
+
+  #non-existent-id {}
+
+  * {
+    font-family: Helvetica !important;
+    line-height: 1.4 !important;
+  }
+
+  body > center > table {
+    width: 100% !important;
+  }
+
+  .title a {
+    font-family: Museo !important;
+  }
+
+  .title a:visited {
+    color: #666 !important;
+  }
+
+  .pagetop a {
+    font-family: Helvetica !important;
+    font-size: 90% !important;
+    color: rgba(0,0,0,0.6) !important;
+  }
+
+  img[src=http\:\/\/ycombinator\.com\/images\/y18\.gif] {
+    margin: 0 2px 0 5px;
+  }
+
+}
+
+/* }}} */
