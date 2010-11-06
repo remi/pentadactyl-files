@@ -1,3 +1,7 @@
+## Wait, what?
+
+<http://dactyl.sourceforge.net/pentadactyl/>
+
 ## Usage
 
     cd ~
