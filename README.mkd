@@ -1,0 +1,19 @@
+## Usage
+
+    cd ~
+    git clone git://github.com/remiprev/pentadactyl-files.git .pentadactyl
+    touch .pentadactyl/.pentadactylrc-sensitive
+    ln -s pentadactyl/.pentadactylrc .pentadactylrc
+
+That’s it!
+
+# Custom commands
+
+* `delicious`
+* `read`
+* `valid`
+
+# Custom styles
+
+* Facebook
+* Hacker News
