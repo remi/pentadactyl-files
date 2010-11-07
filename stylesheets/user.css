@@ -20,7 +20,7 @@
   }
   .uiStreamMessage .actorName {
     float: left !important;
-    margin: 0 0.5em 0 0 !important;
+    margin: 0 0.3em 0 0 !important;
     padding-bottom: 0 !important;
   }
 
@@ -40,8 +40,17 @@
     line-height: 1.4 !important;
   }
 
+  body {
+    padding: 10px !important;
+  }
+
   body > center > table {
     width: 100% !important;
+  }
+
+  body > center > table > tbody > tr:first-child > td {
+    -moz-border-radius: 5px;
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
   }
 
   .title a {
