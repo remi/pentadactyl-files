@@ -13,9 +13,9 @@ That’s it!
 
 # Custom commands
 
-* `delicious`
-* `read`
-* `valid`
+* `:delicious`
+* `:read`
+* `:valid`
 
 # Custom styles
 
