@@ -4,6 +4,8 @@
   vim: set fdm=marker:
 ***************************************************** */
 
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold&subset=latin);
+
 /* @section Facebook {{{
  ******************************************************************************/
 
@@ -58,6 +60,56 @@
 
   img[src=http\:\/\/ycombinator\.com\/images\/y18\.gif] {
     margin: 0 2px 0 5px;
+  }
+
+}
+
+/* }}} */
+
+/* @section Reddit {{{
+ ******************************************************************************/
+
+@-moz-document domain(reddit.com) {
+
+  #non-existent-id {}
+
+  * { font-family: "Droid Sans" !important; }
+
+  .flat-list,
+  .tagline {
+    font-size: 110% !important;
+  }
+
+  .linklisting {
+    padding-top: 10px !important;
+  }
+
+  .linklisting div.link:hover {
+    background: #f2efb7;
+  }
+
+  .linklisting .title {
+    font-size: 135% !important;
+  }
+
+  .tabmenu {
+    position: relative !important;
+    top: -4px !important;
+  }
+
+  .tabmenu li a {
+    -moz-border-radius: 5px 5px 0 0;
+    padding-bottom: 4px !important;
+    color: rgba(51, 102, 153, 0.5) !important;
+  }
+
+  .tabmenu li.selected a {
+    color: rgba(51, 102, 153, 1) !important;
+  }
+
+  #siteTable_organic,
+  .promotedlink {
+    display: none;
   }
 
 }
