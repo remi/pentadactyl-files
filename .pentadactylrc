@@ -1,8 +1,7 @@
-"
-"  Pentadactyl settings
-"  vim: ft=vimperator fdm=marker
-"
-"###############################################
+""
+""  Pentadactyl settings
+""
+""###############################################
 
 so ~/.pentadactyl/.pentadactylrc-sensitive
 so ~/.pentadactyl/stylesheets/user.css
