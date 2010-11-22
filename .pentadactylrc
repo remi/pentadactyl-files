@@ -15,7 +15,7 @@ set newtab=all
 set titlestring=Mozilla\ Firefox
 set defsearch=duck
 set maxitems=12
-set cpt=fl
+set cpt=l
 colorscheme feline
 au LocationChange .* js modes.passAllKeys = /google\.com\/calendar|docs\.google\.com/.test(buffer.URL)
 " }}}
