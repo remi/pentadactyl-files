@@ -1,7 +1,7 @@
 /* ****************************************************
   @file         main.css
   @description  Main user stylesheet
-  vim: set fdm=marker:
+  vim: set fdm=marker ft=css:
 ***************************************************** */
 
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold&subset=latin);
@@ -35,6 +35,14 @@
 
   #non-existent-id {}
 
+  .title {
+    font-size: 120% !important;
+  }
+
+  .subtext {
+    font-size: 90% !important;
+  }
+
   * {
     font-family: Helvetica !important;
     line-height: 1.4 !important;
@@ -42,6 +50,7 @@
 
   body {
     padding: 10px !important;
+    background: #F6F6EF;
   }
 
   body > center > table {
@@ -49,6 +58,7 @@
   }
 
   body > center > table > tbody > tr:first-child > td {
+    font-size: 120%;
     -moz-border-radius: 5px;
     -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
   }
@@ -61,10 +71,25 @@
     color: #666 !important;
   }
 
+  .comment,
+  .comhead {
+    font-size: 120% !important;
+  }
+
+  .title .comhead {
+    font-size: 85% !important;
+  }
+
+  .pagetop {
+    display: block;
+    padding: 6px 0 4px;
+    font-size: 110% !important;
+  }
+
   .pagetop a {
     font-family: Helvetica !important;
-    font-size: 90% !important;
     color: rgba(0,0,0,0.6) !important;
+    font-size: 110% !important;
   }
 
   img[src=http\:\/\/ycombinator\.com\/images\/y18\.gif] {
