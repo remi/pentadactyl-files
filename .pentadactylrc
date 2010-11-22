@@ -17,7 +17,17 @@ set defsearch=duck
 set maxitems=12
 set cpt=l
 colorscheme feline
-au LocationChange .* js modes.passAllKeys = /google\.com\/calendar|docs\.google\.com/.test(buffer.URL)
+autocmd LocationChange google\.com -js modes.set(modes.PASS_THROUGH)
+set nostrictfocus
+" }}}
+
+" @section Passkeys {{{
+" ******************************************************************************
+set passkeys=
+
+" DuckDuckGo
+set passkeys+="https://duckduckgo\.com/":jkv
+
 " }}}
 
 " @section Mappings {{{
