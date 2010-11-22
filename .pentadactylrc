@@ -43,6 +43,7 @@ nmap <M-l> <Nop>
 nmap <M-Q> <Nop>
 nmap <C-g> :pa<CR>
 nmap J :jumps<CR>
+nmap <M-l> :later<CR>
 nmap <M-d> :delicious<CR>
 nmap <S-r> O<CR>
 nmap <M-S-S> :emenu Affichage.Style de la page.Aucun style<CR>
