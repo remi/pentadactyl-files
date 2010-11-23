@@ -8,7 +8,6 @@ so ~/.pentadactyl/stylesheets/user.css
 
 " @section Options {{{
 " ******************************************************************************
-cd ~
 set guioptions=rbms
 set visualbell
 set newtab=all
@@ -16,9 +15,12 @@ set titlestring=Mozilla\ Firefox
 set defsearch=duck
 set maxitems=12
 set cpt=l
+set nostrictfocus
+set rtp="/Users/remi/.pentadactyl"
+
+cd ~
 colorscheme feline
 autocmd LocationChange google\.com -js modes.set(modes.PASS_THROUGH)
-set nostrictfocus
 " }}}
 
 " @section Passkeys {{{
