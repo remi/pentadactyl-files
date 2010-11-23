@@ -50,6 +50,7 @@ nmap <M-S-S> :emenu Affichage.Style de la page.Aucun style<CR>
 nmap <M-S-D> :emenu Affichage.Style de la page.Style de base de la page<CR>
 nmap <M-S-L> :emenu Affichage.Panneau latéral.LiveHTTPHeaders<CR>
 nmap <F9> :sbclose<CR>
+nmap <M-S-U> :dia selectionsource<CR>
 " }}}
 
 " @section Custom commands {{{
