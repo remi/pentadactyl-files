@@ -35,9 +35,11 @@ set passkeys+="https://duckduckgo\.com/":jkv
 
 " @section Mappings {{{
 " ******************************************************************************
+nmap u <Nop>
 nmap d <Nop>
 nmap a <Nop>
 nmap w <Nop>
+nmap <M-F12> <Nop>
 nmap <M-e> <Nop>
 nmap <M-k> <Nop>
 nmap <M-f> <Nop>
