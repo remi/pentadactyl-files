@@ -28,12 +28,14 @@
 
 /* }}} */
 
-/* @section Hacker news {{{
+/* @section Hacker news & UseTheSource {{{
  ******************************************************************************/
 
-@-moz-document domain(news.ycombinator.com) {
+@-moz-document domain(news.ycombinator.com), domain(news.usethesource.com) {
 
   #non-existent-id {}
+
+  #csres { display: none; }
 
   .title {
     font-size: 120% !important;
