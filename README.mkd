@@ -16,9 +16,13 @@ That’s it!
 * `:delicious`
 * `:read`
 * `:valid`
+* `:ghfinder`
+* `:jstoggle`
+* `:firebug`
 
 # Custom styles
 
 * Facebook
 * Hacker News
 * Reddit
+* Twitter
