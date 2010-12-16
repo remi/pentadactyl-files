@@ -35,12 +35,16 @@ set passkeys+="https://duckduckgo\.com/":jkv
 
 " @section Mappings {{{
 " ******************************************************************************
-nmap u <Nop>
+nmap u :emenu Affichage.Code source de la page<CR>
 nmap d <Nop>
 nmap a <Nop>
 nmap w <Nop>
 nmap <M-F12> <Nop>
+"nmap <M-t> :js alert("⌘+T is deprecated.")<CR>
+nmap <M-t> <Nop>
 nmap <M-e> <Nop>
+nmap <M-b> <Nop>
+nmap <M-S-h> <Nop>
 nmap <M-k> <Nop>
 nmap <M-f> <Nop>
 nmap <M-g> <Nop>
@@ -51,9 +55,7 @@ nmap J :jumps<CR>
 nmap <M-l> :later<CR>
 nmap <M-d> :delicious<CR>
 nmap <S-r> O<CR>
-nmap <M-S-S> :emenu Affichage.Style de la page.Aucun style<CR>
-nmap <M-S-D> :emenu Affichage.Style de la page.Style de base de la page<CR>
-nmap <M-S-L> :emenu Affichage.Panneau latéral.LiveHTTPHeaders<CR>
+nmap <M-S-S> :set um!<CR>
 nmap <F9> :sbclose<CR>
 nmap <M-S-U> :dia selectionsource<CR>
 nmap <M-S-J> :jstoggle<CR>
