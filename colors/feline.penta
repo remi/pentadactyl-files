@@ -13,6 +13,7 @@ style -name=yourUglyStatuslineBufferPosition * #dactyl-statusline-field-containe
 style -name=yourUglyStatuslineTabCount * #dactyl-statusline-field-container #dactyl-statusline-field-tabcount { display: none; }
 style -name=yourUglyStatuslineProgress * #dactyl-statusline-field-container #dactyl-statusline-field-progress { display: none; }
 hi StatusLine         background: WindowFrame; font-size: 100%; font-family: Helvetica; color: black; padding: 0px 3px 4px;
+hi StatusLineNormal   background: WindowFrame; font-size: 100%; font-family: Helvetica; color: black; padding: 0px 3px 4px;
 hi StatusLineBroken   color: Black; background-color: #faa;
 hi StatusLineSecure   color: Black; background-color: #afa;
 " }}}
