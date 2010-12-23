@@ -50,6 +50,7 @@ nmap <M-f> <Nop>
 nmap <M-g> <Nop>
 nmap <M-l> <Nop>
 nmap <M-Q> <Nop>
+nmap <F11> <Nop>
 nmap <C-g> :pa<CR>
 nmap J :jumps<CR>
 nmap <M-l> :later<CR>
