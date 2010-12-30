@@ -34,9 +34,9 @@ hi Gradient           display: none;
 " }}}
 
 " Hints {{{
-hi Hint               font-family: Helvetica; line-height: 12px; padding: 3px 6px 2px; font-size: 11px; font-weight: normal; color: white; background-color: rgba(0, 0, 0, 0.75); border: solid 1px LightGray; -moz-border-radius: 1em;
-hi HintElem           background-color: Khaki; color: Black; -moz-border-radius: 6px;
-hi HintActive         background-color: Orange; color: White;
+hi Hint               font-family: "Helvetica Neue"; line-height: 12px; text-shadow: 1px 1px 1px #000; padding: 5px 8px 6px; font-size: 13px; font-weight: normal; color: white; background-color: rgba(0, 0, 0, 0.75); -moz-border-radius: 1em; -moz-box-shadow: 0 0 4px rgba(0,0,0,1);
+hi HintElem           background-color: rgba(255, 255, 0, 0.5) !important; -moz-border-radius: 2px;
+hi HintActive         background-color: rgba(255, 255, 0, 1) !important; color: White; -moz-border-radius: 2px;
 " }}}
 
 " Messages {{{
