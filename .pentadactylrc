@@ -21,7 +21,6 @@ set rtp="/Users/remi/.pentadactyl"
 
 cd ~
 colorscheme feline
-autocmd LocationChange google\.com -js modes.set(modes.PASS_THROUGH)
 " }}}
 
 " @section Passkeys {{{
@@ -31,6 +30,8 @@ set passkeys=
 " DuckDuckGo
 set passkeys+="https://duckduckgo\.com/":jkv
 
+" Gmail
+set passkeys+="https://mail\.google\.com/":jk
 " }}}
 
 " @section Mappings {{{
