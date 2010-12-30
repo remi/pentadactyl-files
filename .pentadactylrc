@@ -31,7 +31,10 @@ set passkeys=
 set passkeys+="https://duckduckgo\.com/":jkv
 
 " Gmail
-set passkeys+="https://mail\.google\.com/":jk
+set passkeys+="https://mail\.google\.com/":jkg
+
+" Twitter
+set passkeys+="https://twitter\.com/":jkg/?.ntrm
 " }}}
 
 " @section Mappings {{{
