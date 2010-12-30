@@ -36,12 +36,14 @@ set passkeys+="https://mail\.google\.com/":jk
 
 " @section Mappings {{{
 " ******************************************************************************
-nmap u :emenu Affichage.Code source de la page<CR>
+
+" Disable some Pentadactyl default mappings
 nmap d <Nop>
 nmap a <Nop>
 nmap w <Nop>
+
+" Disable some regular-Firefox old habits
 nmap <M-F12> <Nop>
-"nmap <M-t> :js alert("⌘+T is deprecated.")<CR>
 nmap <M-t> <Nop>
 nmap <M-e> <Nop>
 nmap <M-b> <Nop>
@@ -52,7 +54,10 @@ nmap <M-g> <Nop>
 nmap <M-l> <Nop>
 nmap <M-Q> <Nop>
 nmap <F11> <Nop>
+
+" Add some of our own mappings
 nmap <C-g> :pa<CR>
+nmap u :emenu Affichage.Code source de la page<CR>
 nmap J :jumps<CR>
 nmap <M-l> :later<CR>
 nmap <M-d> :delicious<CR>
