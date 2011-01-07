@@ -6,7 +6,6 @@
 
 so ~/.pentadactyl/.pentadactylrc-sensitive
 so ~/.pentadactyl/stylesheets/user.css
-so ~/.pentadactyl/plugin/useragent.js
 
 " @section Options {{{
 " ******************************************************************************
