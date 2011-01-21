@@ -7,7 +7,7 @@
     cd ~
     git clone git://github.com/remiprev/pentadactyl-files.git .pentadactyl
     touch .pentadactyl/.pentadactylrc-sensitive
-    ln -s pentadactyl/.pentadactylrc .pentadactylrc
+    ln -s .pentadactyl/.pentadactylrc .pentadactylrc
 
 That’s it!
 
