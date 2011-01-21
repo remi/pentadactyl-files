@@ -18,6 +18,7 @@ set maxitems=12
 set cpt=l
 set nostrictfocus
 set rtp="/Users/remi/.pentadactyl"
+set mapleader=","
 
 cd ~
 colorscheme feline
@@ -59,6 +60,7 @@ nmap <M-Q> <Nop>
 nmap <F11> <Nop>
 
 " Add some of our own mappings
+nmap <Leader>d :tabclose<CR>
 nmap <C-g> :pa<CR>
 nmap u :emenu Affichage.Code source de la page<CR>
 nmap J :jumps<CR>
