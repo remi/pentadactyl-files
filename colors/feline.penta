@@ -40,9 +40,8 @@ hi HintActive         background-color: rgba(255, 255, 0, 1) !important; color: 
 " }}}
 
 " Messages {{{
-hi ErrorMsg            background: #a00 !important; color: #fff !important;
-hi WarningMsg          background: #a00 !important; color: #fff !important;
-hi InfoMsg             background: #153F08 !important; color: #fff !important;
+hi ErrorMsg            background: #a00 !important; color: #fff !important; font: 8pt "Lucida Grande" !important; padding: 3px 4px !important;
+hi WarningMsg          background: #a00 !important; color: #fff !important; font: 8pt "Lucida Grande" !important; padding: 3px 4px !important;
 " }}}
 
 " To-do {{{
