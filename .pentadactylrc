@@ -1,6 +1,6 @@
 ""
 ""  Pentadactyl settings
-""  vim: ft=vimperator:
+""  vim: ft=vimperator fdm=marker:
 ""
 ""###############################################
 
@@ -19,6 +19,8 @@ set cpt=l
 set nostrictfocus
 set rtp="/Users/remi/.pentadactyl"
 set mapleader=","
+set autocomplete=".*"
+set hintmatching=wordstartswith
 
 cd ~
 colorscheme feline
@@ -35,7 +37,7 @@ set passkeys+="https://duckduckgo\.com/":jkv
 set passkeys+="https://mail\.google\.com/":jkg
 
 " Google Calendar
-set passkeys+="https://www\.google\.com/calendar":jkgt12345qrcnp
+set passkeys+="https://www\.google\.com/calendar":jkg12345qrcnp
 
 " Twitter
 set passkeys+="https://twitter\.com/":jkg/?.nrm
